@@ -1,0 +1,88 @@
+.tarefa_div {
+  width: 95%;
+  min-height: 108px;
+  display: flex;
+  flex-basis: inline;
+  margin: auto;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+#sem_tarefas {
+  font-family: inter;
+  margin-left: 10px;
+  color: #919191;
+}
+.tarefa_area {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.tarefa_content {
+  width: 100%;
+  min-height: 80px;
+  padding: 15px;
+  word-wrap: break-word;
+}
+
+.tarefa_content p {
+ font-family: 'Inter', sans-serif;
+ color: black;
+}
+
+.tarefa_edit {
+  width: 90px;
+  height: 105px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+span {
+  padding-left: 5px;
+  font-family: inter;
+  font-size: 12px;
+  color: #616161;
+  margin-left: 10px;
+  margin-top: 8px;
+}
+
+input[type="checkbox"], .remove {
+  width: 22px;
+  height: 22px;
+  margin: 12px;
+  display: flex;
+  background-color: white;
+  justify-content: center;
+}
+
+input[type="checkbox"]:hover {
+  .tarefa_div {
+    .tarefa_content {
+      background-color: red;
+    }
+  }
+}
+
+.tarefa_edit svg {
+  color: #1363DF;
+  width: 22px;
+  height: 22px;
+}
+
+.state {
+  width: 100%;
+  display: flex;
+  flex-direction: inline;
+  align-items: center;
+}
+
+#state_atual {
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  margin-left: 30px;
+  font-size: 12px;
+  color: #3CCF4E;
+}
